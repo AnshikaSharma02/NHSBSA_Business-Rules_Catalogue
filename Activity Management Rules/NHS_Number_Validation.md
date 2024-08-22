@@ -1,12 +1,12 @@
 # DMN Rule Definition Document
 
 ## 1. Document Metadata
-- **Document Title:** Business Rule for [Domain]
+- **Document Title:** Business Rule for Activity Management 
 - **Version:** 1.0
 - **Author:** [Author Name]
 - **Date:** 2024-08-08
-- **Reviewers:** [Reviewer Names]
-- **Approval Status:** Draft
+- **Reviewers:** Ajit Dixit 
+- **Approval Status:** Approved
 
 ## 2. Business Process Information
 - **Process Name:** [Process Name]
