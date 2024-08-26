@@ -20,21 +20,15 @@
 - **Policy Description:** [Detailed Description]
 - **Effective Date:** 2024-08-01
 - **Policy Owner:** [Policy Owner Name]
-
-## 4. Business Process Information
-- **Process Name:** [Process Name]
-- **Description:** [Brief Description]
-- **Business Function:** [Brief Description]
-- **Stakeholders:** [List of Stakeholders]
-
-## 5. Rule Definition Information
+- 
+## 4. Rule Definition Information
 - **Rule ID:** R006
 - **Rule Definition Name:** NHS Number Validation
 - **Link:** Activity business rules examples.docx (sharepoint.com)
 - **Effective Date:** 2024-08-01
-- **Business Owner:** [Rule Definition Business Owner]
+- **Business Owner:** Mark Yanton
 
-## 6. DMN Rule Information
+## 5. DMN Rule Information
 - **DMN Rule ID:** AM006
 - **DMN Rule Name:** NHS_Number_Validation
 - **DMN Rule Description:** This business rule aims to check whether the Nhs num is valid or not based on certain conditions. 
@@ -44,10 +38,10 @@
 - **Rule Actions:**
   - **Action 1:** Activity Claim --> FP17O, Apply for ortho reform check --> Y, Region --> England
   - **Action 2:** Date of Assessment or Date of Completion should be on or after the Ortho Reform start date. 
-- **Rule Author:** [Rule Author Name]
+- **Rule Author:** Anshika Sharma 
 
-## 7. DMN Rule Assets
-### 7.1 DMN Model 
+## 6. DMN Rule Assets
+### 6.1 DMN Model 
 - **DMN Model Name:** NHS_Number_Validation 
 - **DMN Model link:** KIE Sandbox :: NHS_Number_Validation.dmn
 - **Decision Table Name:** Validity 
@@ -68,21 +62,21 @@
   - **Action 2:** : If both the output parameters are satisfied then the DMN rule Validity (Output 3 or the final output) would be satisfied and the NHS num should be valid, Otherwise Invalid. 
 - **<<this section can be repeated if more than 1 DMN models are used>>**
 
-## 8. Dependencies
+## 7. Dependencies
 - **Included Model Name:**
 - **Invoked Decision Service**
 -**DMN asset link:** [Link to included DMN asset]
 
-## 9. Exception Scenario
+## 8. Exception Scenario
 - **<<Add any exception scenario>>**
 
-## 10. Traceability Matrix
+## 9. Traceability Matrix
 
-| Rule ID | Policy ID | DMN Model ID |  Input  | Output  | Stakeholder  | Status |
-|---------|-----------|--------------|---------|---------|--------------|--------|
-| R006    | P001      | DMN001       |  Input1 | Output1 | Stakeholder1 | Active |
+ | Policy ID | DMN Model ID |  Input  | Output  | Stakeholder  | Status |
+ |-----------|--------------|---------|---------|--------------|--------|
+ | P001      | DMN001       |  Input1 | Output1 | Stakeholder1 | Active |
 
-## 11. Change Log
+## 10. Change Log
 
 | Version | Date       | Author        | Description of Changes            |
 |---------|------------|---------------|-----------------------------------|
