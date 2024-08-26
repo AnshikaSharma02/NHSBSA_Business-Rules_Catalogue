@@ -43,7 +43,6 @@
 ## 6. DMN Rule Assets
 ### 6.1 DMN Model 
 - **DMN Model Name:** NHS_Number_Validation 
-- **DMN Model link:** KIE Sandbox :: NHS_Number_Validation.dmn
 - **Decision Table Name:** Validity 
   - **Input 1:** ApplyOrthoReformChecks
   - **Input 2:** ActivityClaim
@@ -72,12 +71,12 @@
 
 ## 9. Traceability Matrix
 
- | Policy ID | DMN Model ID |  Input  | Output  | Stakeholder  | Status |
- |-----------|--------------|---------|---------|--------------|--------|
- | P001      | DMN001       |  Input1 | Output1 | Stakeholder1 | Active |
+ | Policy ID | DMN Model ID |  DMN MOdel Link                            | Stakeholder  | Status  |
+ |-----------|--------------|--------------------------------------------|--------------|-------- |
+ | -         | DMN006       |  KIE Sandbox :: NHS_Number_Validation.dmn  | Stakeholder1 | Active  |
 
 ## 10. Change Log
 
 | Version | Date       | Author        | Description of Changes            |
 |---------|------------|---------------|-----------------------------------|
-| 1.0     | 2024-08-08 | [Author Name] | Initial creation                  |
+| 1.0     | 2024-08-08 | Anshika Sharma| Initial creation                  |
