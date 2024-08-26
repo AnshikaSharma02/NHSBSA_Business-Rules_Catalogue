@@ -8,22 +8,37 @@
 - **Reviewers:** [Reviewer Names]
 - **Approval Status:** Draft
 
-## 2. Business Process Information
+## 2. Domain Information 
+- **Domain Name:** [Domain Name]
+- **Domain Description:** [Short Description]
 - **Process Name:** [Process Name]
-- **Description:** [Brief Description]
-- **Business Function:** [Brief Description]
-- **Stakeholders:** [List of Stakeholders]
+  
+  **Note**: In process name , Sub-domain is required. 
+- **Business Owner:** [Business Owner Name]
+- **Stakeholders:**[ List of Stakeholders]
 
-## 3. Rule Definition Information
-- **Rule ID:** [Rule Definition ID]
+## 3. Policy Information(If applicable) 
+- **Policy ID:** [Policy ID]
+- **Policy Name:** [Policy Name]
+- **Policy Description:** [Detailed Description]
+- **Effective Date:** 2024-08-01
+- **Policy Owner:** [Policy Owner Name]
+
+## 4. Rule Definition Information
 - **Rule Definition Name:** [Name]
 - **Link:** [Link to Rule Definition document]
 - **Effective Date:** 2024-08-01
 - **Business Owner:** [Rule Definition Business Owner]
 
-## 4. DMN Rule Information
+## 5. DMN Rule Information
 - **DMN Rule ID:** [Rule Definition ID]
+  
+  **Note**: The DMN rule ID will follow a specific format, which includes the domain name and the corresponding rule 
+number as listed in the document. For example, the ID "PYM001" is structured as follows: "PYM" denotes the domain 
+name, Payment Management, and "001" represents the sequential rule number as it appears in the document.
 - **DMN Rule Name:** [Rule Name]
+
+  **Note:** According to the naming convention, the DMN rule name must be defined.
 - **DMN Rule Description:** [Detailed Description]
 - **Rule Conditions:**
   - **Condition 1:** [Condition Description]
@@ -33,10 +48,9 @@
   - **Action 2:** [Action Description]
 - **Rule Author:** [Rule Author Name]
 
-## 5. DMN Rule Assets
-### 5.1 DMN Model 
+## 6. DMN Rule Assets
+### 6.1 DMN Model 
 - **DMN Model Name:** [DMN Model Name]
-- **DMN Model link:** [Link to DMN model]
 - **Decision Table Name:** [Decision Table Name]
 - - **Inputs:**
   - **Input 1:** [Input Description]
@@ -51,21 +65,23 @@
   - **Action 2:** [Action Description]
 - **<<this section can be repeated if more than 1 DMN models are used>>**
 
-## 6. Dependencies
+## 7. Dependencies
 - **Included Model Name:**
 - **Invoked Decision Service**
 -**DMN asset link:** [Link to included DMN asset]
+  
+  **Note**: In this section, specify dependencies if a DMN rule is split across multiple DMN files or if external functions or reusable code are invoked. Include all relevant dependencies or links to the DMN models involved.
 
-## 7. Exception Scenario
+## 8. Exception Scenario
 - **<<Add any exception scenario>>**
 
-## 7. Traceability Matrix
+## 9. Traceability Matrix
 
-| Rule ID | Policy ID | DMN Model ID |  Input  | Output  | Stakeholder  | Status |
-|---------|-----------|--------------|---------|---------|--------------|--------|
-| R001    | P001      | DMN001       |  Input1 | Output1 | Stakeholder1 | Active |
+| Policy ID | DMN Model ID |  DMN Model link     | Stakeholder  | Status |
+|-----------|--------------|---------------------|--------------|--------|
+| P001      | DMN001       | [Link to DMN model] | Stakeholder1 | Active |
 
-## 8. Change Log
+## 10. Change Log
 
 | Version | Date       | Author        | Description of Changes            |
 |---------|------------|---------------|-----------------------------------|
