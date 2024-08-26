@@ -29,8 +29,8 @@
 - **Business Owner:** Mark Yanton
 
 ## 5. DMN Rule Information
-- **DMN Rule ID:** AM006
-- **DMN Rule Name:** NHS_Number_Validation
+- **DMN Rule ID:** ACM006
+- **DMN Rule Name:** DR-ACM-NHS_Num_Valid-0006
 - **DMN Rule Description:** This business rule aims to check whether the Nhs num is valid or not based on certain conditions. 
 - **Rule Conditions:**
   - **Condition 1:** : It is going to check the Eligible for Ortho Reform, where the Activity claims, Regions and Apply for ortho reform check would be checked as per the business rule. 
@@ -42,7 +42,7 @@
 
 ## 6. DMN Rule Assets
 ### 6.1 DMN Model 
-- **DMN Model Name:** NHS_Number_Validation 
+- **DMN Model Name:** DR-ACM-NHS_Num_Valid-0006
 - **Decision Table Name:** Validity 
   - **Input 1:** ApplyOrthoReformChecks
   - **Input 2:** ActivityClaim
@@ -73,7 +73,7 @@
 
  | Policy ID | DMN Model ID |  DMN MOdel Link                            | Stakeholder  | Status  |
  |-----------|--------------|--------------------------------------------|--------------|-------- |
- | -         | DMN006       |  KIE Sandbox :: NHS_Number_Validation.dmn  | Stakeholder1 | Active  |
+ | -         | DS-ACM-0006  |  KIE Sandbox :: NHS_Number_Validation.dmn  | Stakeholder1 | Active  |
 
 ## 10. Change Log
 
