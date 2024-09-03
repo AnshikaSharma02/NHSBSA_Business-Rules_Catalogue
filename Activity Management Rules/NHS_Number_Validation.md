@@ -8,30 +8,13 @@
 - **Reviewers:** Ajit Dixit 
 - **Approval Status:** Approved
 
-## 2. Domain Information 
-- **Domain Name:** Activity Management
-- **Domain Description:** NHS Number Validation Process 
-- **Business Owner:** [Business Owner Name]
-- **Stakeholders:** NHSBSA,
-
-## 3. Policy Information(If applicable) 
-- **Policy ID:** 
-- **Policy Name:** [Policy Name]
-- **Policy Description:** [Detailed Description]
-- **Effective Date:** 2024-08-01
-- **Policy Owner:** [Policy Owner Name]
-- 
-## 4. Rule Definition Information
-- **Rule ID:** R006
-- **Rule Definition Name:** NHS Number Validation
-- **Link:** Activity business rules examples.docx (sharepoint.com)
-- **Effective Date:** 2024-08-01
-- **Business Owner:** Mark Yanton
-
-## 5. DMN Rule Information
-- **DMN Rule ID:** ACM006
+## 2. DMN Rule Information
+- **DMN Rule version number:** 01
 - **DMN Rule Name:** DR-ACM-NHS_Num_Valid-0006
-- **DMN Rule Description:** This business rule aims to check whether the Nhs num is valid or not based on certain conditions. 
+- ** **Effective from data:** 01/01/2023
+- **Effective to date:** none
+- **DMN Rule Description:** This business rule aims to check whether the Nhs num is valid or not based on certain conditions.
+- **Business Owner:** Mark Yarnton
 - **Rule Conditions:**
   - **Condition 1:** : It is going to check the Eligible for Ortho Reform, where the Activity claims, Regions and Apply for ortho reform check would be checked as per the business rule. 
   - **Condition 2:** The Date check is going to validate the Ortho reform start date, Date of Assessment and Date of Completion. 
@@ -40,8 +23,8 @@
   - **Action 2:** Date of Assessment or Date of Completion should be on or after the Ortho Reform start date. 
 - **Rule Author:** Anshika Sharma 
 
-## 6. DMN Rule Assets
-### 6.1 DMN Model 
+## 3. DMN Rule Assets
+### 3.1 DMN Model 
 - **DMN Model Name:** DR-ACM-NHS_Num_Valid-0006
 - **Decision Table Name:** Validity 
   - **Input 1:** ApplyOrthoReformChecks
@@ -61,21 +44,21 @@
   - **Action 2:** : If both the output parameters are satisfied then the DMN rule Validity (Output 3 or the final output) would be satisfied and the NHS num should be valid, Otherwise Invalid. 
 - **<<this section can be repeated if more than 1 DMN models are used>>**
 
-## 7. Dependencies
+## 4. Dependencies
 - **Included Model Name:**
 - **Invoked Decision Service**
 -**DMN asset link:** [Link to included DMN asset]
 
-## 8. Exception Scenario
+## 5. Exception Scenario
 - **<<Add any exception scenario>>**
 
-## 9. Traceability Matrix
+## 6. Traceability Matrix
 
  | Policy ID | DMN Model ID |  DMN MOdel Link                            | Stakeholder  | Status  |
  |-----------|--------------|--------------------------------------------|--------------|-------- |
  | -         | DS-ACM-0006  |  KIE Sandbox :: NHS_Number_Validation.dmn  | Stakeholder1 | Active  |
 
-## 10. Change Log
+## 7. Change Log
 
 | Version | Date       | Author        | Description of Changes            |
 |---------|------------|---------------|-----------------------------------|
